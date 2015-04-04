@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="js/vars.js"></script>
-	<script src="js/index.js"></script>
+	<title>Hiring Statistics</title>
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<div id="credit">
-		<a href='http://www.glassdoor.com/index.htm'>powered by <img src='http://www.glassdoor.com/static/img/api/glassdoor_logo_80.png' title='Job Search' /></a>
-	</div>
+	<section id="landing_screen">
+		<div class="main_container">
+			<h1>Who's Hiring?</h1>
+			<form id="search_position" action="results.html" method="GET">
+				<input name ="query" type="text" placeholder="Enter a position" required/>
+				<button class="orange_button" type="submit">Look up</button>
+			</form>
+		</div>
+	</section>
 </body>
 </html>

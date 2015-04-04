@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hiring Statistics</title>
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/results.css">
+	<!-- Script -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vars.js"></script>
+	<script type="text/javascript" src="js/results.js">South Carolina</script>
+</head>
+<body>
+
+	<!-- FIXED HEADER AND SEARCH -->
+	<header>
+		<div class="main_container">
+			<img id="home_icon" src="img/home.png" />
+			<h1 id="job_title"></h1>
+			<img id="search_icon" src="img/magnifier.png" />
+			<div id="mini_search">
+				<form id="search_position" action="results.html" method="GET">
+					<input name ="query" type="text" placeholder="Enter a position" required/>
+					<button class="orange_button" type="submit">Look up</button>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<!-- TOP STATES AND CITIES -->
+	<section id="sectionA">
+		<div class="main_container">
+			<div id="top_states" class="half_width">
+				<h2>top states</h2>
+				<ol>
+				</ol>
+				<button class="orange_button" type="button">More</button>
+			</div>
+			<div id="top_cities" class="half_width">
+				<h2>top cities</h2>
+				<ol>
+				</ol>
+				<button class="orange_button" type="button">More</button>
+			</div>
+			<div class="clearfix">
+			</div>
+		</div>
+	</section>
+
+	<!-- TOP RELATED POSITIONS -->
+	<section id="sectionB">
+		<div class="main_container">
+			<div id="related_positions" class="full_width centered">
+				<h2>related positions</h2>
+				<ol>
+				</ol>
+				<button class="orange_button" type="button">More</button>
+			</div>
+			<div class="clearfix">
+			</div>
+		</div>
+	</section>
+
+	<!-- TOP HIRING COMPANIES -->
+	<section id="sectionC">
+		<div class="main_container">
+			<div id="top_employers" class="full_width">
+				<h2>top employers</h2>
+				<ol>
+				</ol>
+				<button class="orange_button" type="button">More</button>
+			</div>
+			<div class="clearfix">
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER WITH CREDITS -->
+	<footer>
+		<div class="main_container">
+			<div>
+				<a href='http://www.glassdoor.com/index.htm'>powered by <img src='http://www.glassdoor.com/static/img/api/glassdoor_logo_80.png' title='Job Search' /></a>
+			</div>
+			<div>
+				Icons made by
+				<a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> 
+				and <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
+				from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> 
+				is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- "MORE LIST" -->
+	<section id="sectionZ" class="opaque">
+		<div class="main_container">
+			<div id="top_hundred">
+				<h2></h2>
+				<ol>
+				</ol>
+				<img id="close" src="img/close.png" />
+			</div>
+		</div>
+	</section>
+</body>
+</html>
